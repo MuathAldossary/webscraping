@@ -13,7 +13,7 @@ moviesList = []
 for movie in movies:
     moviesList.append(movie.text)
 
-movies =moviesList.reverse()
+movies = moviesList.reverse()
 
 file = open('movies.txt', 'w')
 for movie in moviesList:
